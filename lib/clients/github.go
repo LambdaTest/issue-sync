@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff"
-	"github.com/coreos/issue-sync/cfg"
+	"github.com/LambdaTest/issue-sync/cfg"
 	"github.com/google/go-github/github"
 	"golang.org/x/oauth2"
 )

@@ -4,9 +4,9 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/coreos/issue-sync/cfg"
-	"github.com/coreos/issue-sync/lib"
-	"github.com/coreos/issue-sync/lib/clients"
+	"github.com/LambdaTest/issue-sync/cfg"
+	"github.com/LambdaTest/issue-sync/lib"
+	"github.com/LambdaTest/issue-sync/lib/clients"
 	"github.com/spf13/cobra"
 )
 
@@ -53,7 +53,8 @@ var RootCmd = &cobra.Command{
 			if !config.IsDaemon() {
 				return nil
 			}
-			<-time.After(config.GetDaemonPeriod())
+            return nil
+			//<-time.After(config.GetDaemonPeriod())
 		}
 	},
 }

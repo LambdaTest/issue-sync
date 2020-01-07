@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/andygrunwald/go-jira"
-	"github.com/coreos/issue-sync/cfg"
-	"github.com/coreos/issue-sync/lib/clients"
+	"github.com/LambdaTest/issue-sync/cfg"
+	"github.com/LambdaTest/issue-sync/lib/clients"
 	"github.com/google/go-github/github"
 )
 
